@@ -1,0 +1,48 @@
+<div class="header-fixed header-tablet-and-mobile-fixed toolbar-enabled toolbar-fixed aside-enabled aside-fixed"
+  style="--kt-toolbar-height:55px;--kt-toolbar-height-tablet-and-mobile:55px">
+  <div class="d-flex flex-column flex-root">
+    <div class="page d-flex flex-row flex-column-fluid">
+      <app-leftmenu></app-leftmenu>
+      <div class="wrapper d-flex flex-column flex-row-fluid">
+        <app-header></app-header>
+        <div class="content d-flex flex-column flex-column-fluid">
+          <div class="toolbar">
+            <div class="container-fluid d-flex flex-stack">
+              <div class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+                <h1 class="d-flex align-items-center text-dark fw-bolder fs-3 my-1">Dashboard</h1>
+                <span class="h-20px border-gray-300 border-start mx-4"></span>
+
+              </div>
+              <div class="d-flex align-items-center gap-2 gap-lg-3">
+                <div class="m-0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post d-flex flex-column-fluid">
+            <div class="container-xxl">
+              <div class="row gy-5 g-xl-10">
+                <div class="col-xxl-12 mb-lg-12 mb-xl-12 mb-xxl-12">
+                  <div class="row g-5 g-lg-10">
+                    <div class="col-xl-4 mb-5 mb-xl-10">
+                      <div class="card card-flush mb-lg-10" routerLink="/companies">
+                        <div class="card-header pt-5">
+                          <div class="card-title d-flex flex-column">
+                            <span class="fs-2hx fw-bolder text-dark me-2 lh-1">{{count.companies}}</span>
+                          </div>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-end">
+                          <span class="fs-6 fw-boldest text-gray-800 d-block mb-2">Companies Registered</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
